@@ -1,0 +1,35 @@
+/* Ciné-Rush — global styles for an SMW-themed platformer */
+
+:root {
+  --smw-sky-top: #5c94fc;
+  --smw-sky-bot: #bce0ff;
+  --smw-ground: #c97e3a;
+  --smw-ground-dark: #7a3e10;
+  --smw-grass: #00a040;
+  --smw-grass-dark: #006020;
+  --smw-text: #fff;
+  --smw-shadow: rgba(0, 0, 0, 0.45);
+  --cinema-blue: #007a3d;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--smw-text);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
+
+app-root {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
